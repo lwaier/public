@@ -1,0 +1,54 @@
+
+
+
+@import "animate.css";
+@import "common.scss";
+@import "antd-mobile.css";
+
+
+$base_color : yellowgreen;
+$base_ft :40px;
+
+html,body,#app , .main-box  ,#main ,.g-box{
+    width:100vw;
+    height:100vh;
+    touch-action: none;
+}
+
+
+.btn{
+    border:none;
+    outline: none;
+    color:#0f0;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 14px;/* no */
+}
+
+.disable{
+    border:none;
+    outline: none;
+    color:#0f0;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 24px;/* no */
+    opacity: .4;
+}
+
+// #app{
+//     color:$base_color ;
+//     font-size:100px; /*no*/
+//     border:1px solid red; /*no*/
+//     background: url(../assets/images/img2.jpg) 0 0 no-repeat;
+// }
+.move-in{
+    animation:zoomInDown .8s;
+}
+
+.box-enter{
+    animation:zoomInDown .8s;
+}
+
+.box-leave{
+    animation: zoomOutDown  .8s;
+}
